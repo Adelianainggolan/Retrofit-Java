@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btn_addUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Add User"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_getUserList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Fetch User"
+        android:textColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        tools:listitem="@layout/list_item" />
+
+
+</LinearLayout>

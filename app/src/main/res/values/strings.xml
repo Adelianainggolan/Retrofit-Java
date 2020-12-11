@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Retrofit-Java</string>
+    <string name="id">id</string>
+    <string name="name">name</string>
+    <string name="price">price</string>
+    <string name="desc">desc</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+</resources>
